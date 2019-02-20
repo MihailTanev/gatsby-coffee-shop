@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import BackgroundSection from "../components/global/BackgroundSection";
 import Info from "../components/home/info";
 import Menu from "../components/home/Menu";
+import Products from "../components/home/Products";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = ({ data }) => (
     />
     <Info />
     <Menu items={data.menu} />
+    <Products />
   </Layout>
 );
 
@@ -39,7 +41,7 @@ export const query = graphql`
           price
           category
           image {
-            fixed(width: 50, height: 50) {
+            fixed(width: 150, height: 150) {
               ...GatsbyContentfulFixed_tracedSVG
             }
           }
