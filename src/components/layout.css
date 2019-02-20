@@ -7,7 +7,7 @@
 }
 
 body {
-  background: var(--mainWhite);
+  background: var(--mainGrey);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -29,7 +29,8 @@ h5 {
   color: var(--mainYellow);
   font-size: 2rem;
 }
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -38,6 +39,10 @@ h5 {
   background-position: center;
   background-size: cover;
 }
+.about-background {
+  min-height: 60vh;
+}
+
 .btn-yellow {
   color: var(--mainYellow);
   border-color: var(--mainYellow);
@@ -48,4 +53,7 @@ h5 {
 }
 .footer {
   background: var(--mainBrown);
+}
+.footer p {
+  font-size: 1.25rem;
 }

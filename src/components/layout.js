@@ -8,7 +8,6 @@ import "./layout.css";
 const Layout = ({ children }) => (
   <>
     <Navbar />
-
     {children}
     <Footer />
   </>
