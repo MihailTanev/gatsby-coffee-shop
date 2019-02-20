@@ -7,7 +7,7 @@
 }
 
 body {
-  background: var(--mainGrey);
+  background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -56,4 +56,7 @@ h5 {
 }
 .footer p {
   font-size: 1.25rem;
+}
+.menu {
+  background: var(--mainGrey);
 }
