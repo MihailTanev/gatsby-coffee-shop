@@ -38,9 +38,9 @@ export default class Navbar extends Component {
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="logo" />
-          {/*https://www.iconfinder.com/icons/185113/coffee_streamline_icon
+          {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
 Creative Commons (Attribution 3.0 Unported);
-https://www.iconfinder.com/webalys  */}
+https://www.iconfinder.com/webalys */}
         </Link>
         <button
           className="navbar-toggler"
