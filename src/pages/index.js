@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import { Link, graphql } from "gatsby";
 import BackgroundSection from "../components/global/BackgroundSection";
 import Info from "../components/home/info";
-import Menu from "../components/home/menu";
+import Menu from "../components/home/Menu";
 
 const IndexPage = ({ data }) => (
   <Layout>
