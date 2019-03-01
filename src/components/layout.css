@@ -62,3 +62,6 @@ h6 {
 .contact {
   background: var(--mainGrey);
 }
+.row {
+  margin-right: 0% !important;
+}
