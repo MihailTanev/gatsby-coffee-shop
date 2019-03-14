@@ -11,6 +11,7 @@ const getProducts = graphql`
           id
           title
           price
+          createdAt(formatString: "MMMM DD, YYYY")
           image {
             fluid(maxWidth: 646) {
               src
